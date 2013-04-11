@@ -16,3 +16,6 @@ $width 		= $params->get('width');
 $mode 		= $params->get('mode');
 $height 	= $params->get('height');
 $wide 		= $params->get('wide');
+$color1		= $params->get('color1');
+$color2 	= $params->get('color2');
+$color3 	= $params->get('color3');

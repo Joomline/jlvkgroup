@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="module" version="1.7" method="upgrade">
-	<name>MOD_JLVKGROUP</name>
+<extension type="module" version="2.5" method="upgrade">
+	<name>JL VK Group</name>
 	<creationDate>2010-09-23</creationDate>
 	<author>JoomLine</author>
 	<authorEmail>sale@joomline.ru</authorEmail>
 	<authorUrl>http://www.joomline.net</authorUrl>
 	<copyright>Copyright 2010 JoomLine.net All rights reserved!</copyright>
 	<license>license GNU/GPL: http://www.gnu.org/copyleft/gpl.html </license>
-	<version>2.4</version>
+	<version>2.5</version>
 	<description>MOD_JLVKGROUP_XML_DESCRIPTION</description>
 	<files>
 		<filename module="mod_jlvkgroup">mod_jlvkgroup.php</filename>
@@ -37,12 +37,15 @@
 				<option value="0">MOD_JLVKGROUP_YES</option>
 				<option value="1">MOD_JLVKGROUP_NO</option>
 			</field>
+			<field name="color1" type="text" label="MOD_JLVKGROUP_COLOR1_LABEL" description="MOD_JLVKGROUP_COLOR1_DESCRIPTION" default="FFFFFF"/>
+			<field name="color2" type="text" label="MOD_JLVKGROUP_COLOR2_LABEL" description="MOD_JLVKGROUP_COLOR2_DESCRIPTION" default="2B587A"/>
+			<field name="color3" type="text" label="MOD_JLVKGROUP_COLOR3_LABEL" description="MOD_JLVKGROUP_COLOR3_DESCRIPTION" default="5B7FA6"/>
 			<field	name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
 		</fieldset>
      </fields>
  
 	</config>
 	<updateservers>
-		<server type="extension" priority="1" name="Module JLvkgroup Update Site">http://joomline.ru/update/mod_jlvkgroup/extension.xml</server>
+		<updateservers><server type="extension" priority="1" name="Joomline">http://joomline.net/component/ars/updates/modules/jl-vk-group?dlid=&amp;format=xml&amp;dummy=extension.xml</server></updateservers>
 	</updateservers>
 </extension>
