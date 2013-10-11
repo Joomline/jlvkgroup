@@ -14,9 +14,9 @@ $doc->addCustomTag('<script src="//vk.com/js/api/openapi.js?87"></script>');
 ?>
 
 <!-- VK Widget -->
-<div  id="jlvkgroup<?=$group_id?>"></div>
+<div  id="jlvkgroup<?php echo $group_id;?>"></div>
 <script type="text/javascript">
-VK.Widgets.Group("jlvkgroup<?=$group_id?>", {mode: <?=$mode?>, wide: <?=$wide?>, width: "<?=$width?>", height: "<?=$height?>", color1: '<?=$color1?>', color2: '<?=$color2?>', color3: '<?=$color3?>'}, <?=$group_id?>);
+VK.Widgets.Group("jlvkgroup<?php echo $group_id;?>", {mode: <?php echo $mode;?>, wide: <?php echo $wide;?>, width: "<?php echo $width;?>", height: "<?php echo $height;?>", color1: '<?php echo $color1;?>', color2: '<?php echo $color2;?>', color3: '<?php echo $color3;?>'}, <?php echo $group_id;?>);
 </script>
 <div style="text-align: right;">
     <a href="http://joomline.ru/rasshirenija/moduli.html" target="_blank" style="text-decoration:none; color: #c0c0c0; font-family: arial,helvetica,sans-serif; font-size: 5pt; "><?php echo JText::_( 'MOD_JLVKGROUP_COPIR' )?></a>
