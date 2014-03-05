@@ -7,7 +7,7 @@
 	<authorUrl>http://www.joomline.net</authorUrl>
 	<copyright>Copyright 2010 JoomLine.net All rights reserved!</copyright>
 	<license>license GNU/GPL: http://www.gnu.org/copyleft/gpl.html </license>
-	<version>2.5.1</version>
+	<version>2.6</version>
 	<description>MOD_JLVKGROUP_XML_DESCRIPTION</description>
 	<files>
 		<filename module="mod_jlvkgroup">mod_jlvkgroup.php</filename>
@@ -50,6 +50,6 @@
  
 	</config>
 	<updateservers>
-		<updateservers><server type="extension" priority="1" name="Joomline">http://joomline.net/component/ars/updates/modules/jl-vk-group?dlid=&amp;format=xml&amp;dummy=extension.xml</server></updateservers>
+		<updateservers><server type="extension" priority="1" name="Joomline">http://joomline.net/index.php?option=com_ars&amp;view=update&amp;task=stream&amp;format=xml&amp;id=4&amp;dummy=extension.xml</server></updateservers>
 	</updateservers>
 </extension>
