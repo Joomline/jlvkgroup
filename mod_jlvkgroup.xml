@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="2.5" method="upgrade">
 	<name>JL VK Group</name>
-	<creationDate>2016-07-13</creationDate>
+	<creationDate>2018-09-17</creationDate>
 	<author>JoomLine</author>
 	<authorEmail>sale@joomline.ru</authorEmail>
 	<authorUrl>http://www.joomline.net</authorUrl>
 	<copyright>Copyright 2010-2016 JoomLine.net All rights reserved!</copyright>
 	<license>license GNU/GPL: http://www.gnu.org/copyleft/gpl.html </license>
-	<version>2.6.0</version>
+	<version>2.7.0</version>
 	<description>MOD_JLVKGROUP_XML_DESCRIPTION</description>
 	<files>
 		<filename module="mod_jlvkgroup">mod_jlvkgroup.php</filename>
@@ -28,12 +28,16 @@
 			<field name="group_id" type="text" label="MOD_JLVKGROUP_IDVK_LABEL" description="MOD_JLVKGROUP_IDVK_DESCRIPTION" default="17291036"/>
 			<field name="width" type="text" label="MOD_JLVKGROUP_WIDTH_LABEL" description="MOD_JLVKGROUP_WIDTH_DESCRIPTION" default="200"/>
 			<field name="height" type="text" label="MOD_JLVKGROUP_HEIGHT_LABEL" description="MOD_JLVKGROUP_HEIGHT_DESCRIPTION" default="290"/>
-			<field name="mode" type="list" label="MOD_JLVKGROUP_MODE_LABEL" default="0">
-				<option value="0">MOD_JLVKGROUP_MODE_1</option>
+			<field name="mode" type="list" label="MOD_JLVKGROUP_MODE_LABEL" default="3">
+				<option value="3">MOD_JLVKGROUP_MODE_1</option>
 				<option value="1">MOD_JLVKGROUP_MODE_2</option>
-				<option value="2">MOD_JLVKGROUP_MODE_3</option>
+				<option value="4">MOD_JLVKGROUP_MODE_3</option>
 			</field>
 			<field name="wide" type="radio" label="MOD_JLVKGROUP_WIDE_LABEL" description="MOD_JLVKGROUP_WIDE_DESCRIPTION" default="0">
+				<option value="0">MOD_JLVKGROUP_OFF</option>
+				<option value="1">MOD_JLVKGROUP_WIDE_FULL</option>
+			</field>
+			<field name="cover" type="radio" label="MOD_JLVKGROUP_COVER" description="MOD_JLVKGROUP_COVER_DESCRIPTION" default="0">
 				<option value="0">MOD_JLVKGROUP_YES</option>
 				<option value="1">MOD_JLVKGROUP_NO</option>
 			</field>
